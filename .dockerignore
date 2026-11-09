@@ -1,0 +1,5 @@
+# Only send image sources to the builder; exclude desktop data and credentials.
+**
+!Dockerfile
+!init/
+!init/**

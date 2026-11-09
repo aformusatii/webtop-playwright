@@ -1,0 +1,15 @@
+# Persistent desktop data and local credentials
+/config/
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+/.codex/
+/.agents/
+
+# Local tooling and generated files
+node_modules/
+__pycache__/
+*.log
+.DS_Store
